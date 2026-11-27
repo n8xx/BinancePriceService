@@ -19,6 +19,7 @@ spring:
 binance:
   api:
     base-url: ${BINANCE_API_BASE_URL:https://api.binance.com}
+    avg-price-path: /api/v3/avgPrice
     symbol: ${BINANCE_SYMBOL:BNBUSDT}
     connect-timeout: PT5S
     read-timeout: PT10S
